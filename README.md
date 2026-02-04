@@ -68,13 +68,13 @@ npm install
 **3. Setup Environment Variables**
  Create a .env.local file in the root directory and add the following keys. You can find these in your Clerk and Convex dashboards.
 
- # Deployment used by `npx convex dev`
+ Deployment used by `npx convex dev`
 CONVEX_DEPLOYMENT=dev:descriptive-possum-368 
 
-# Convex Public URL
+ Convex Public URL
 NEXT_PUBLIC_CONVEX_URL=https://descriptive-possum-368.convex.cloud
 
-# Clerk Authentication Keys
+ Clerk Authentication Keys
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=pk_test_ZmFpdGhmdWwtcmFiYml0LTgyLmNsZXJrLmFjY291bnRzLmRldiQ
 CLERK_SECRET_KEY=sk_test_gbJAyH2oNavtM4JPPqReJTwNtwj8CVTKWbcjGuWVzm
 
